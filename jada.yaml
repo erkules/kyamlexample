@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: www
+  labels:
+    ich: du
+  labels:
+    du: ich
+spec:
+  containers:
+  - name: meinserver
+    image: erkules/nginxhostname
+
